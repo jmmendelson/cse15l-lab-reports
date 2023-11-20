@@ -62,10 +62,7 @@ static double averageWithoutLowest(double[] arr) {
   }
 ```
 
-Explanation for Code Fix: The issue with the code before the fix was that multiple instances of the lowest value are ignored, rather than just 1. To fix this, 
-I created a boolean value lowestIgnored to check if the lowest has been ignored, so the first time that the lowest is ignored when summing the numbers from the   
-array, the lowest value isn't added and lowestIgnored is set to true. As the for loop continues, the rest of the numbers in the array are added up, including other   
-instances of the lowestValue.
+Explanation for Code Fix: The issue with the code before the fix was that multiple instances of the lowest value are ignored, rather than just 1. To fix this, I created a boolean value lowestIgnored to check if the lowest has been ignored, so the first time that the lowest is ignored when summing the numbers from the array, the lowest value isn't added and lowestIgnored is set to true. As the for loop continues, the rest of the numbers in the array are added up, including other instances of the lowestValue.
 
 **Part 2**   
 
@@ -104,7 +101,7 @@ maxmendelson@Maxs-MBP docsearch % grep -i 'immunoperoxidase' ./technical/biomed/
 ```
 
 What it's doing: makes the search case-insensitive. This means that it will match lines regardless of whether the characters in the search term are lowercase or uppercase.  
-Why it's useful: This is particularly helpful when you're not sure of the case of the text you're searching for or when the case is inconsistent.  
+Why it's useful: helpful when you're not sure of the case of the text you're searching for or when the case is inconsistent.  
 
 -r: Example 1   
 ```
@@ -135,7 +132,7 @@ maxmendelson@Maxs-MBP docsearch % grep -r 'murder' ./technical/911report/
 ```
 
 What it's doing: enables recursive searching. This means grep will search through all directories and subdirectories starting from the given directory and match the specified pattern in all files.  
-Why it's useful: This is essential when working with projects with a complex directory structure, such as source code repositories. It allows you to quickly search through all files in all directories for a specific term, saving time and effort compared to manually searching each directory.  
+Why it's useful: helpful when working with projects with a complex directory structure. It allows you to quickly search through all files in all directories for a specific term, saving time and effort compared to manually searching each directory.  
 
 -l: Example 1  
 ```
@@ -162,7 +159,7 @@ maxmendelson@Maxs-MBP docsearch % grep -l 'phosphorylation' ./technical/plos/*.t
 ```
 
 What it's doing: only output the names of the files with matching lines, rather than the lines themselves. Each file name is listed only once.  
-Why it's useful: This is great for when you need to know which files contain a given pattern, but you don't need the actual content of the lines. It helps in quickly identifying relevant files, especially in large codebases or document collections.  
+Why it's useful: This is great for when you need to know which files contain a given pattern, but you don't need the actual content of the lines.  
 
 -c: Example 1  
 ```
@@ -192,7 +189,7 @@ maxmendelson@Maxs-MBP docsearch % grep -c 'genomics' ./technical/biomed/gb-2002-
 3
 ```
 
-What it's doing: count occurrences of a specific term in documents, which is particularly useful in quantifying the frequency of certain topics or terms  
+What it's doing: count occurrences of a specific term in documents
 Why it's useful: useful for quantifying the presence of certain patterns. It's a quick way to get an overview of the frequency of a pattern without having to manually count matches.  
 
 ---
