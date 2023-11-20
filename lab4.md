@@ -1,4 +1,4 @@
-# Lab 4
+# Lab Report 4
 
 **Step 4:**   
 Keys: I typed "ssh cs15lfa23gp@ieng6.ucsd.edu" and <enter>
