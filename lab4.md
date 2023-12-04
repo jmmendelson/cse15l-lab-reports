@@ -18,7 +18,7 @@ Keys: I typed "vim L" and pressed &lt;tab&gt; to autocomplete to "vim ListExampl
    
 Once in vim I typed ":/index1 +" and pressed &lt;enter&gt; once and &lt;n&gt; 2 times (&lt;n&gt;&lt;n&gt;) to go to the correct occurence of "index1 +".   
 <img width="581" alt="Screenshot 2023-12-03 at 6 42 47 PM" src="https://github.com/jmmendelson/cse15l-lab-reports/assets/130113062/ab603b4e-e60a-4043-84ee-1d672a504b9b">   
-Then I pressed the right arrow 5 times (&lt;right&gt;&lt;right&gt;&lt;right&gt;&lt;right&gt;&lt;right&gt;) and pressed &lt;r&gt; and then typed "2" to replace the "1" with a "2"
+Then I pressed the right arrow 5 times (&lt;right&gt;&lt;right&gt;&lt;right&gt;&lt;right&gt;&lt;right&gt;) and pressed &lt;r&gt; and then typed "2" to replace the "1" with a "2"   
 <img width="400" alt="Screen Shot 2023-11-19 at 11 12 39 PM" src="https://github.com/jmmendelson/cse15l-lab-reports/assets/130113062/7250beb8-0bf3-4b6c-beee-dd79d3220935">   
 Then I pressed &lt;escape&gt; and typed ":wq" and pressed &lt;enter&gt; to save and quit.  
 <img width="369" alt="Screenshot 2023-12-03 at 6 41 48 PM" src="https://github.com/jmmendelson/cse15l-lab-reports/assets/130113062/ac9b570b-c3cb-41ab-8476-7adbc0660957">
