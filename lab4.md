@@ -3,9 +3,9 @@
 **Step 4:**   
 Keys: I typed `ssh cs15lfa23gp@ieng6.ucsd.edu` and pressed `<enter>`    
 <img width="579" alt="Screen Shot 2023-11-19 at 10 56 01 PM" src="https://github.com/jmmendelson/cse15l-lab-reports/assets/130113062/611ca989-7b76-4185-8dc1-9d8d7e8824d0">  
-
+    
 **Step 5:**  
-Keys:  I typed `git clone ` and pressed `<Command-V>` to paste `git@github.com:jmmendelson/lab7.git` and then pressed `<enter>`
+Keys:  I typed `git clone ` and pressed `<Command-V>` to paste `git@github.com:jmmendelson/lab7.git` and then pressed `<enter>`. Then when prompted, I type `yes` and press `<enter>` again
 <img width="621" alt="Screen Shot 2023-11-20 at 12 00 17 AM" src="https://github.com/jmmendelson/cse15l-lab-reports/assets/130113062/27ec4f15-63a1-429c-9aa6-222354a9b8b9">  
 
 **Step 6:**  
@@ -26,7 +26,7 @@ Then I pressed `<escape>` and typed `:wq` and pressed `<enter>` to save and quit
 **Step 8:**  
 Keys: I pressed `<up>` twice (`<up><up>`) to get back to the command `bash test.sh` and then pressed `<enter>`  
 <img width="399" alt="Screen Shot 2023-11-19 at 11 14 57 PM" src="https://github.com/jmmendelson/cse15l-lab-reports/assets/130113062/cfb04df8-b232-4f76-a2c1-44f8ed6b7ada">  
-
+   
 **Step 9:**  
 Keys: I typed `git commit -a -m "Fixed"` to commit the changes.   
 <img width="490" alt="Screen Shot 2023-11-19 at 11 21 57 PM" src="https://github.com/jmmendelson/cse15l-lab-reports/assets/130113062/1dd5463d-7e3f-4783-9e66-ca98cba47425">  
