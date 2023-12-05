@@ -26,7 +26,8 @@ Thanks again!
 The contents of each file before fixing the bug: The contents of `Main.java` were attached above in step 3, here are the contents of `run.sh`   
 <img width="450" alt="Screenshot 2023-12-04 at 7 57 37 PM" src="https://github.com/jmmendelson/cse15l-lab-reports/assets/130113062/ff2b1af6-2abf-416e-b15c-3d7f7048f857">   
 The full command line (or lines) you ran to trigger the bug: this was attached above in step 1   
-A description of what to edit to fix the bug: The edits I made to fix the bug was changing `doubleNumber` from being void to returning an integer, and using this instead of the second use of `num`   
+A description of what to edit to fix the bug: The edits I made to fix the bug was changing `doubleNumber` from being void to returning an integer, and printing `doubleNumber(num)` in the 
+second print statement instead of `num`   
 <img width="476" alt="Screenshot 2023-12-04 at 8 03 47 PM" src="https://github.com/jmmendelson/cse15l-lab-reports/assets/130113062/fcf0ab3b-bcdb-4af4-9b20-6c9cbdfc97f4">   
 Here is the correct output from running `run.sh`   
 <img width="455" alt="Screenshot 2023-12-04 at 8 04 11 PM" src="https://github.com/jmmendelson/cse15l-lab-reports/assets/130113062/31f9d3d2-83f4-4f23-bcff-972cfc041e22">
